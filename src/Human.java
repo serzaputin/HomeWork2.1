@@ -14,8 +14,8 @@ public class Human {
         this.yearOfBirth = yearOfBirth;
     }
 
-    public void Human() {
-        System.out.println("Привет! Меня зовут " + name + " Я из города " + town + " Я родилась(-лся) в " + yearOfBirth
+    void Human() {
+        System.out.println("Привет! Меня зовут " + name + " Я из города " + town + " Я родилась(лся) в " + yearOfBirth
                 + " году. Я работаю на должности " + jobTitle + ". Будем знакомы!");
     }
 }

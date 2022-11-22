@@ -1,5 +1,3 @@
-import java.lang.invoke.StringConcatException;
-
 public class Car {
 
     //Task3
@@ -20,7 +18,7 @@ public class Car {
         this.engineVolume = engineVolume;
     }
 
-    public void Car() {
+    void Car() {
         System.out.println("Автомобиль " + brand + " " + model + ", " + year + " год выпуска, сборка в " + country + ", "
                 + color + " цвета, объем двигателя " + engineVolume);
     }
