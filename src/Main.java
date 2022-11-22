@@ -2,22 +2,34 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("ООП - Введение. ДЗ");
 
-        //Task1-2
+        //Task1.1-1.2
 
-        Human maksim = new Human("Максим","Минск",1988,"бренд-менеджером" );
+        Human maksim = new Human("Максим");
+        maksim.town = "Минск";
+        maksim.yearOfBirth = 1988;
+        maksim.jobTitle = "бренд-менеджером";
         maksim.Human();
 
-        Human anya = new Human("Аня","Москва",1993,"методистом образовательных программ");
+        Human anya = new Human("Аня");
+        anya.town = "Москва";
+        anya.yearOfBirth = 1993;
+        anya.jobTitle = "методистом образовательных программ";
         anya.Human();
 
-        Human katya = new Human("Катя","Калининград",1992,"продакт-менеджером");
+        Human katya = new Human("Катя");
+        katya.town = "Калининград";
+        katya.yearOfBirth = 1992;
+        katya.jobTitle = "продакт-менеджером";
         katya.Human();
 
-        Human artem = new Human("Артем","Москва",1995,"директором по развитию бизнеса");
+        Human artem = new Human("Артем");
+        artem.town = "Москва";
+        artem.yearOfBirth = 1995;
+        artem.jobTitle = "директором по развитию бизнеса";
         artem.Human();
         System.out.println(" ");
 
-        //Task3
+        //Task1.3
         Car car1 = new Car("Lada","Granta",2015,"России","желтого","1.7 л");
         car1.Car();
 

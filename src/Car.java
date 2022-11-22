@@ -1,6 +1,6 @@
 public class Car {
 
-    //Task3
+    //Task1.3
 
     String brand;
     String model;
@@ -19,7 +19,7 @@ public class Car {
     }
 
     void Car() {
-        System.out.println("Автомобиль " + brand + " " + model + ", " + year + " год выпуска, сборка в " + country + ", "
-                + color + " цвета, объем двигателя " + engineVolume);
+        System.out.println("Автомобиль " + brand + " " + model + ", " + year + " год выпуска, сборка в "
+                + country + ", " + color + " цвета, объем двигателя " + engineVolume);
     }
 }
