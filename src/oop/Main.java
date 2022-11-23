@@ -1,3 +1,8 @@
+package oop;
+
+import oop.Car;
+import oop.Human;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("ООП - Введение. ДЗ");
@@ -5,26 +10,26 @@ public class Main {
         //Task1.1-1.2
 
         Human maksim = new Human("Максим");
-        maksim.town = "Минск";
         maksim.yearOfBirth = 1988;
+        maksim.town = "Минск";
         maksim.jobTitle = "бренд-менеджером";
         maksim.Human();
 
         Human anya = new Human("Аня");
-        anya.town = "Москва";
         anya.yearOfBirth = 1993;
+        anya.town = "Москва";
         anya.jobTitle = "методистом образовательных программ";
         anya.Human();
 
         Human katya = new Human("Катя");
-        katya.town = "Калининград";
         katya.yearOfBirth = 1992;
+        katya.town = "Калининград";
         katya.jobTitle = "продакт-менеджером";
         katya.Human();
 
         Human artem = new Human("Артем");
-        artem.town = "Москва";
         artem.yearOfBirth = 1995;
+        artem.town = "Москва";
         artem.jobTitle = "директором по развитию бизнеса";
         artem.Human();
         System.out.println(" ");
