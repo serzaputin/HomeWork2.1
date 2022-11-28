@@ -4,10 +4,10 @@ public class Human {
 
     //Task1.1-1.2
 
-    String name;
-    String town;
-    String jobTitle;
-    int yearOfBirth;
+    public String name;
+    public String town;
+    public String jobTitle;
+    public int yearOfBirth;
 
     Human(String name, String town, String jobTitle, int yearOfBirth) {
         if (name == null || name.equals("")) {

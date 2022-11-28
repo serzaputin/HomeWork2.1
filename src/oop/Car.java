@@ -1,12 +1,12 @@
 package oop;
 
 public class Car {
-    String brand;
-    String model;
-    double engineVolume;
-    String color;
-    String country;
-    int year;
+    public String brand;
+    public String model;
+    public double engineVolume;
+    public String color;
+    public String country;
+    public int year;
 
     Car(String brand, String model, int year, String country, String color, double engineVolume) {
         if (brand == null || brand.equals("")) {
